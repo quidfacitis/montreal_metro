@@ -1,0 +1,78 @@
+/* BLEUE STATIONS -- JEAN-TALON & SNOWDON LOCATED ON ORANGE LINE */
+
+#Saint-Michel {
+  position: absolute;
+  top: 277px;
+  left: 517px;
+  cursor: pointer;
+}
+
+#DIberville {
+  position: absolute;
+  top: 304px;
+  left: 490px;
+  cursor: pointer;
+}
+
+#Fabre {
+  position: absolute;
+  top: 330px;
+  left: 464px;
+  cursor: pointer;
+}
+
+#De-Castelnau {
+  position: absolute;
+  top: 385px;
+  left: 409px;
+  cursor: pointer;
+}
+
+#Parc {
+  position: absolute;
+  top: 414px;
+  left: 381px;
+  cursor: pointer;
+}
+
+#Acadie {
+  position: absolute;
+  top: 467px;
+  left: 381px;
+  cursor: pointer;
+}
+
+#Outremont {
+  position: absolute;
+  top: 522px;
+  left: 381px;
+  cursor: pointer;
+}
+
+#Édouard-Montpetit {
+  position: absolute;
+  top: 576px;
+  left: 381px;
+  cursor: pointer;
+}
+
+#Université-De-Montréal {
+  position: absolute;
+  top: 605px;
+  left: 354px;
+  cursor: pointer;
+}
+
+#Côte-Des-Neiges {
+  position: absolute;
+  top: 632px;
+  left: 326px;
+  cursor: pointer;
+}
+
+#Saint-Michel:hover, #DIberville:hover, #Fabre:hover, #De-Castelnau:hover,
+#Parc:hover, #Acadie:hover, #Outremont:hover, #Édouard-Montpetit:hover,
+#Université-De-Montréal:hover, #Côte-Des-Neiges:hover {
+  background-color: #2bff00;
+  border: 2px solid black;
+}

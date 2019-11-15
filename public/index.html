@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Métro de Montréal</title>
+  <link rel="icon" href="/img/metro_icon.jpeg">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/stations/orange_stations.css">
+  <link rel="stylesheet" href="/css/stations/bleue_stations.css">
+  <link rel="stylesheet" href="/css/stations/verte_stations.css">
+  <link rel="stylesheet" href="/css/stations/jaune_stations.css">
+</head>
+
+<body>
+  <h1>Métro de Montréal</h1>
+  <div class="station-container">
+    <div class="selector-container-1">
+      <p class="medium-font-size station-name">Point de départ</p>
+      <select id="premiere-station"></select>
+      <div class="dot1 orange" id="orange-1"></div>
+      <div class="dot1 bleue" id="bleue-1"></div>
+      <div class="dot1 verte" id="verte-1"></div>
+      <div class="dot1 jaune" id="jaune-1"></div>
+    </div>
+
+    <img src='/img/new_arrow.png' class="arrow-icon" height="50px" width="50px">
+
+    <div class="selector-container-2">
+      <p class="medium-font-size station-name">Destination</p>
+      <select id="derniere-station"></select>
+      <div class="dot1 orange" id="orange-2"></div>
+      <div class="dot1 bleue" id="bleue-2"></div>
+      <div class="dot1 verte" id="verte-2"></div>
+      <div class="dot1 jaune" id="jaune-2"></div>
+    </div>
+
+    <p class="medium-font-size bottom">Temps de parcours estimé: <span class="medium-font-size" id="result">0 minutes</span></p>
+  </div>
+  <div class="container">
+    <img src="./img/montreal_metro.png" alt="Montréal métro"/>
+
+    <!-- ligneOrange stations -->
+
+    <div class="dot2" onclick="setStation(event)" id="Montmorency"></div>
+    <div class="dot2" onclick="setStation(event)" id="De-La-Concorde"></div>
+    <div class="dot2" onclick="setStation(event)" id="Cartier"></div>
+    <div class="dot2" onclick="setStation(event)" id="Henri-Bourassa"></div>
+    <div class="dot2" onclick="setStation(event)" id="Sauvé"></div>
+    <div class="dot2" onclick="setStation(event)" id="Crémazie"></div>
+    <div class="dot2" onclick="setStation(event)" id="Jarry"></div>
+    <div class="dot1" onclick="setStation(event)" id="Jean-Talon"></div>
+    <div class="dot2" onclick="setStation(event)" id="Beaubien"></div>
+    <div class="dot2" onclick="setStation(event)" id="Rosemont"></div>
+    <div class="dot2" onclick="setStation(event)" id="Laurier"></div>
+    <div class="dot2" onclick="setStation(event)" id="Mont-Royal"></div>
+    <div class="dot2" onclick="setStation(event)" id="Sherbrooke"></div>
+    <div class="dot1" onclick="setStation(event)" id="Berri-UQAM"></div>
+    <div class="dot2" onclick="setStation(event)" id="Champ-De-Mars"></div>
+    <div class="dot2" onclick="setStation(event)" id="Place-dArmes"></div>
+    <div class="dot2" onclick="setStation(event)" id="Square-Victoria-OACI"></div>
+    <div class="dot2" onclick="setStation(event)" id="Bonaventure"></div>
+    <div class="dot2" onclick="setStation(event)" id="Lucien-LAllier"></div>
+    <div class="dot2" onclick="setStation(event)" id="Georges-Vanier"></div>
+    <div class="dot1" onclick="setStation(event)" id="Lionel-Groulx"></div>
+    <div class="dot2" onclick="setStation(event)" id="Place-Saint-Henri"></div>
+    <div class="dot2" onclick="setStation(event)" id="Vendôme"></div>
+    <div class="dot2" onclick="setStation(event)" id="Villa-Maria"></div>
+    <div class="dot1" onclick="setStation(event)" id="Snowdon"></div>
+    <div class="dot2" onclick="setStation(event)" id="Côte-Sainte-Catherine"></div>
+    <div class="dot2" onclick="setStation(event)" id="Plamondon"></div>
+    <div class="dot2" onclick="setStation(event)" id="Namur"></div>
+    <div class="dot2" onclick="setStation(event)" id="De-La-Savane"></div>
+    <div class="dot2" onclick="setStation(event)" id="Du-Collège"></div>
+    <div class="dot2" onclick="setStation(event)" id="Côte-Vertu"></div>
+
+    <!-- ligneBleue stations -->
+
+    <div class="dot2" onclick="setStation(event)" id="Saint-Michel"></div>
+    <div class="dot2" onclick="setStation(event)" id="DIberville"></div>
+    <div class="dot2" onclick="setStation(event)" id="Fabre"></div>
+    <div class="dot2" onclick="setStation(event)" id="De-Castelnau"></div>
+    <div class="dot2" onclick="setStation(event)" id="Parc"></div>
+    <div class="dot2" onclick="setStation(event)" id="Acadie"></div>
+    <div class="dot2" onclick="setStation(event)" id="Outremont"></div>
+    <div class="dot2" onclick="setStation(event)" id="Édouard-Montpetit"></div>
+    <div class="dot2" onclick="setStation(event)" id="Université-De-Montréal"></div>
+    <div class="dot2" onclick="setStation(event)" id="Côte-Des-Neiges"></div>
+
+    <!-- ligneVerte stations -->
+
+    <div class="dot2" onclick="setStation(event)" id="Honoré-Beaugrand"></div>
+    <div class="dot2" onclick="setStation(event)" id="Radisson"></div>
+    <div class="dot2" onclick="setStation(event)" id="Langelier"></div>
+    <div class="dot2" onclick="setStation(event)" id="Cadillac"></div>
+    <div class="dot2" onclick="setStation(event)" id="Assomption"></div>
+    <div class="dot2" onclick="setStation(event)" id="Viau"></div>
+    <div class="dot2" onclick="setStation(event)" id="Pie-Ix"></div>
+    <div class="dot2" onclick="setStation(event)" id="Joliette"></div>
+    <div class="dot2" onclick="setStation(event)" id="Préfontaine"></div>
+    <div class="dot2" onclick="setStation(event)" id="Frontenac"></div>
+    <div class="dot2" onclick="setStation(event)" id="Papineau"></div>
+    <div class="dot2" onclick="setStation(event)" id="Beaudry"></div>
+    <div class="dot2" onclick="setStation(event)" id="Saint-Laurent"></div>
+    <div class="dot2" onclick="setStation(event)" id="Place-Des-Arts"></div>
+    <div class="dot2" onclick="setStation(event)" id="McGill"></div>
+    <div class="dot2" onclick="setStation(event)" id="Peel"></div>
+    <div class="dot2" onclick="setStation(event)" id="Guy-Concordia"></div>
+    <div class="dot2" onclick="setStation(event)" id="Atwater"></div>
+    <div class="dot2" onclick="setStation(event)" id="Charlevoix"></div>
+    <div class="dot2" onclick="setStation(event)" id="Lasalle"></div>
+    <div class="dot2" onclick="setStation(event)" id="De-lÉglise"></div>
+    <div class="dot2" onclick="setStation(event)" id="Verdun"></div>
+    <div class="dot2" onclick="setStation(event)" id="Jolicoeur"></div>
+    <div class="dot2" onclick="setStation(event)" id="Monk"></div>
+    <div class="dot2" onclick="setStation(event)" id="Angrignon"></div>
+
+    <!-- ligneJaune stations -->
+
+    <div class="dot2" onclick="setStation(event)" id="Jean-Drapeau"></div>
+    <div class="dot2" onclick="setStation(event)" id="Longueuil-Université-De-Sherbrooke"></div>
+
+  </div>
+  <script src="./js/app.js"></script>
+  <script src="./js/utils/set_colors.js"></script>
+  <script src="./js/utils/get_ligne_and_index.js"></script>
+  <script src="./js/utils/calculate_route.js"></script>
+  <script src="./js/utils/calculate_bleue_jaune.js"></script>
+  <script src="./js/utils/calculate_bleue_verte.js"></script>
+  <script src="./js/utils/calculate_same_color_route.js"></script>
+  <script src="./js/utils/calculate_time.js"></script>
+  <script src="./js/utils/set_dynamic_route.js"></script>
+  <script src="./js/utils/set_station.js"></script>
+</body>
+</html>

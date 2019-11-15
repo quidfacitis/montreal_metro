@@ -1,0 +1,232 @@
+/* ORANGE STATIONS -- INCLUDES ALL TRANSFER STATIONS */
+
+#Montmorency {
+  position: absolute;
+  top: 194px;
+  left: 110px;
+  cursor: pointer;
+  /* transition: border 0.2s; */
+}
+
+#De-La-Concorde {
+  position: absolute;
+  top: 194px;
+  left: 189px;
+  cursor: pointer;
+}
+
+#Cartier {
+  position: absolute;
+  top: 194px;
+  left: 270px;
+  cursor: pointer;
+}
+
+#Henri-Bourassa {
+  position: absolute;
+  top: 250px;
+  left: 327px;
+  cursor: pointer;
+}
+
+#Sauvé {
+  position: absolute;
+  top: 276px;
+  left: 353px;
+  cursor: pointer;
+}
+
+#Crémazie {
+  position: absolute;
+  top: 304px;
+  left: 382px;
+  cursor: pointer;
+}
+
+#Jarry {
+  position: absolute;
+  top: 331px;
+  left: 408px;
+  cursor: pointer;
+}
+
+#Jean-Talon {
+  position: absolute;
+  top: 355px;
+  left: 432px;
+  cursor: pointer;
+}
+
+#Beaubien {
+  position: absolute;
+  top: 385px;
+  left: 461px;
+  cursor: pointer;
+}
+
+#Rosemont {
+  position: absolute;
+  top: 413px;
+  left: 489px;
+  cursor: pointer;
+}
+
+#Laurier {
+  position: absolute;
+  top: 435px;
+  left: 512px;
+  cursor: pointer;
+}
+
+#Mont-Royal {
+  position: absolute;
+  top: 460px;
+  left: 537px;
+  cursor: pointer;
+}
+
+
+#Sherbrooke {
+  position: absolute;
+  top: 486px;
+  left: 562px;
+  cursor: pointer;
+}
+
+#Berri-UQAM {
+  position: absolute;
+  top: 519px;
+  left: 595px;
+  cursor: pointer;
+}
+
+#Champ-De-Mars {
+  position: absolute;
+  top: 579px;
+  left: 600px;
+  cursor: pointer;
+}
+
+#Place-dArmes {
+  position: absolute;
+  top: 605px;
+  left: 574px;
+  cursor: pointer;
+}
+
+#Square-Victoria-OACI {
+  position: absolute;
+  top: 632px;
+  left: 547px;
+  cursor: pointer;
+}
+
+#Bonaventure {
+  position: absolute;
+  top: 660px;
+  left: 519px;
+  cursor: pointer;
+}
+
+#Lucien-LAllier {
+  position: absolute;
+  top: 688px;
+  left: 491px;
+  cursor: pointer;
+}
+
+#Georges-Vanier {
+  position: absolute;
+  top: 717px;
+  left: 462px;
+  cursor: pointer;
+}
+
+#Lionel-Groulx {
+  position: absolute;
+  top: 738px;
+  left: 432px;
+  cursor: pointer;
+}
+
+#Place-Saint-Henri {
+  position: absolute;
+  top: 745px;
+  left: 383px;
+  cursor: pointer;
+}
+
+#Vendôme {
+  position: absolute;
+  top: 716px;
+  left: 354px;
+  cursor: pointer;
+}
+
+#Villa-Maria {
+  position: absolute;
+  top: 689px;
+  left: 326px;
+  cursor: pointer;
+}
+
+#Snowdon {
+  position: absolute;
+  top: 657px;
+  left: 295px;
+  cursor: pointer;
+}
+
+#Côte-Sainte-Catherine {
+  position: absolute;
+  top: 632px;
+  left: 269px;
+  cursor: pointer;
+}
+
+#Plamondon {
+  position: absolute;
+  top: 605px;
+  left: 242px;
+  cursor: pointer;
+}
+
+#Namur {
+  position: absolute;
+  top: 580px;
+  left: 218px;
+  cursor: pointer;
+}
+
+#De-La-Savane {
+  position: absolute;
+  top: 550px;
+  left: 188px;
+  cursor: pointer;
+}
+
+#Du-Collège {
+  position: absolute;
+  top: 522px;
+  left: 159px;
+  cursor: pointer;
+}
+
+#Côte-Vertu {
+  position: absolute;
+  top: 497px;
+  left: 135px;
+  cursor: pointer;
+}
+
+#Montmorency:hover, #De-La-Concorde:hover, #Cartier:hover, #Henri-Bourassa:hover,
+#Sauvé:hover, #Crémazie:hover, #Jarry:hover, #Jean-Talon:hover,
+#Beaubien:hover, #Rosemont:hover, #Laurier:hover, #Mont-Royal:hover,
+#Sherbrooke:hover, #Berri-UQAM:hover, #Champ-De-Mars:hover, #Place-dArmes:hover,
+#Square-Victoria-OACI:hover, #Bonaventure:hover, #Lucien-LAllier:hover, #Georges-Vanier:hover,
+#Lionel-Groulx:hover, #Place-Saint-Henri:hover, #Vendôme:hover, #Villa-Maria:hover,
+#Snowdon:hover, #Côte-Sainte-Catherine:hover, #Plamondon:hover, #Namur:hover,
+#De-La-Savane:hover, #Du-Collège:hover, #Côte-Vertu:hover {
+  background-color: #2bff00;
+  border: 2px solid black;
+}

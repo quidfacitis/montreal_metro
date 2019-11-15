@@ -1,0 +1,20 @@
+/* JAUNE STATIONS -- BERRI-UQAM LOCATED ON ORANGE LINE */
+
+#Jean-Drapeau {
+  position: absolute;
+  top: 534px;
+  left: 697px;
+  cursor: pointer;
+}
+
+#Longueuil-Université-De-Sherbrooke {
+  position: absolute;
+  top: 542px;
+  left: 760px;
+  cursor: pointer;
+}
+
+#Jean-Drapeau:hover, #Longueuil-Université-De-Sherbrooke:hover {
+  background-color: #2bff00;
+  border: 2px solid black;
+}

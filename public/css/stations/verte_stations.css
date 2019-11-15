@@ -1,0 +1,187 @@
+/* VERTE STATIONS -- BERRI-UQAM & LIONEL-GROULX LOCATED ON ORANGE LINE */
+
+#Honoré-Beaugrand {
+  position: absolute;
+  top: 194px;
+  left: 819px;
+  cursor: pointer;
+}
+
+#Radisson {
+  position: absolute;
+  top: 222px;
+  left: 792px;
+  cursor: pointer;
+}
+
+#Langelier {
+  position: absolute;
+  top: 249px;
+  left: 765px;
+  cursor: pointer;
+}
+
+#Cadillac {
+  position: absolute;
+  top: 275px;
+  left: 738px;
+  cursor: pointer;
+}
+
+#Assomption {
+  position: absolute;
+  top: 303px;
+  left: 712px;
+  cursor: pointer;
+}
+
+#Viau {
+  position: absolute;
+  top: 330px;
+  left: 736px;
+  cursor: pointer;
+}
+
+#Pie-Ix {
+  position: absolute;
+  top: 360px;
+  left: 708px;
+  cursor: pointer;
+}
+
+#Joliette {
+  position: absolute;
+  top: 385px;
+  left: 684px;
+  cursor: pointer;
+}
+
+#Préfontaine {
+  position: absolute;
+  top: 413px;
+  left: 657px;
+  cursor: pointer;
+}
+
+#Frontenac {
+  position: absolute;
+  top: 440px;
+  left: 681px;
+  cursor: pointer;
+}
+
+#Papineau {
+  position: absolute;
+  top: 466px;
+  left: 658px;
+  cursor: pointer;
+}
+
+#Beaudry {
+  position: absolute;
+  top: 490px;
+  left: 634px;
+  cursor: pointer;
+}
+
+#Saint-Laurent {
+  position: absolute;
+  top: 551px;
+  left: 573px;
+  cursor: pointer;
+}
+
+#Place-Des-Arts {
+  position: absolute;
+  top: 578px;
+  left: 546px;
+  cursor: pointer;
+}
+
+#McGill {
+  position: absolute;
+  top: 605px;
+  left: 518px;
+  cursor: pointer;
+}
+
+#Peel {
+  position: absolute;
+  top: 633px;
+  left: 491px;
+  cursor: pointer;
+}
+
+#Guy-Concordia {
+  position: absolute;
+  top: 661px;
+  left: 463px;
+  cursor: pointer;
+}
+
+#Atwater {
+  position: absolute;
+  top: 688px;
+  left: 436px;
+  cursor: pointer;
+}
+
+#Charlevoix {
+  position: absolute;
+  top: 771px;
+  left: 464px;
+  cursor: pointer;
+}
+
+#Lasalle {
+  position: absolute;
+  top: 797px;
+  left: 490px;
+  cursor: pointer;
+}
+
+#De-lÉglise {
+  position: absolute;
+  top: 826px;
+  left: 463px;
+  cursor: pointer;
+}
+
+#Verdun {
+  position: absolute;
+  top: 852px;
+  left: 436px;
+  cursor: pointer;
+}
+
+#Jolicoeur {
+  position: absolute;
+  top: 827px;
+  left: 409px;
+  cursor: pointer;
+}
+
+#Monk {
+  position: absolute;
+  top: 853px;
+  left: 381px;
+  cursor: pointer;
+}
+
+#Angrignon {
+  position: absolute;
+  top: 881px;
+  left: 353px;
+  cursor: pointer;
+}
+
+#Honoré-Beaugrand:hover, #Radisson:hover, #Langelier:hover, #Cadillac:hover,
+#Assomption:hover, #Viau:hover, #Pie-Ix:hover, #Joliette:hover,
+#Préfontaine:hover, #Frontenac:hover, #Papineau:hover, #Beaudry:hover,
+#Saint-Laurent:hover, #Place-Des-Arts:hover, #McGill:hover, #Peel:hover,
+#Guy-Concordia:hover, #Atwater:hover, #Charlevoix:hover, #Lasalle:hover,
+#De-lÉglise:hover, #Verdun:hover, #Jolicoeur:hover, #Monk:hover,
+#Angrignon:hover {
+  background-color: #2bff00;
+  border: 2px solid black;
+}
